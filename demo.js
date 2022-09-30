@@ -1,4 +1,4 @@
-fetch("https://demo.testfire.net/bank/doTransfer", {
+fetch("https://demo.testfire.net/admin/admin.jsp", {
   "headers": {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
     "accept-language": "en,en-US;q=0.9",
@@ -13,9 +13,9 @@ fetch("https://demo.testfire.net/bank/doTransfer", {
     "sec-fetch-user": "?1",
     "upgrade-insecure-requests": "1"
   },
-  "referrer": "https://demo.testfire.net/bank/transfer.jsp",
+  "referrer": "https://demo.testfire.net/admin/admin.jsp",
   "referrerPolicy": "strict-origin-when-cross-origin",
-  "body": "fromAccount=800000&toAccount=800001&transferAmount=100&transfer=Transfer+Money",
+  "body": "username=admin&password1=test&password2=test&change=Change+Password",
   "method": "POST",
   "mode": "cors",
   "credentials": "include"
